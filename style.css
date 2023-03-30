@@ -1,0 +1,87 @@
+body{
+    padding:100px 100px 100px 100px;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(3, 3, 44);
+    color: wheat;
+
+}
+.example1{
+    display: flex;
+    border:1px solid white;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    margin:30px;
+    width:800px;
+    border-radius:2px;
+    position:relative;
+}
+
+.title{
+    font-size:xx-large;
+    font-weight: bolder;
+}
+.description{
+    font-size: larger;
+}
+
+.box{
+    width:700px;
+}
+ 
+button{
+    font-size: larger;
+    font-weight:bolder;
+    color: rgb(215, 215, 226);
+    text-align:right;
+    background-color: blue;
+}
+.footer{
+    font-size: medium;
+    color: blue;
+    text-align:center;
+    font-weight: bold;
+}
+.example2{
+    border: 2px;
+    margin-top:10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.title1{
+    font-size:x-large;
+    font-weight:bold;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.circle{
+    width:750px;
+}
+.content{
+    font-size:large;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.footer1{
+    font-size: medium;
+    font-weight: bold;
+    text-align:left;
+    margin-top:15px;
+    margin-bottom:10px;
+    color: blue;
+}
+.row1{
+    display:flex;
+    flex-wrap:wrap;
+    margin:20px;
+    width:380px;
+    position:relative;
+    border: 1px dotted rgb(189, 183, 183);
+    border-top-right-radius:80px;
+}
+
+
+
+
